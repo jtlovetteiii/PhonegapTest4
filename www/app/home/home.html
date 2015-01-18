@@ -1,0 +1,7 @@
+﻿<div>
+    <h2>Angular Cordova Service Test</h2>
+	<div>
+		<button ng-click="captureImage()">Capture Image</button><br />
+		<img ng-if="image" ng-src="data:image/{{image.format}};base64,{{image.data}}" alt="Camera Image" />
+	</div>
+</div>
